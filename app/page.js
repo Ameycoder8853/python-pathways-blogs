@@ -44,15 +44,16 @@ export default function Home() {
         </div>
 
 
-        <div className="w-full mt-4 lg:mt-0 lg:w-1/2 rounded-3xl shadow-gray-700 shadow-2xl">
+        <div className="mx-auto mt-4 lg:mt-0 w-3/4 sm:w-2/3 md:w-1/2 lg:w-2/3 shadow-gray-800 shadow-2xl rounded-3xl">
   <Image 
     src="/logo.png" 
     alt="tailwind css components" 
     width={400} 
     height={300} 
-    className="w-3/4 sm:w-2/3 md:w-1/2 lg:w-1/2 h-auto mx-auto rounded-3xl" 
+    className="w-full h-auto mx-auto rounded-3xl shadow-[0_8px_16px_rgba(0,0,0,0.5)]" 
   />
 </div>
+
 
 
       </section>
