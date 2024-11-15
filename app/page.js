@@ -42,15 +42,19 @@ export default function Home() {
             </form>
           </div>
         </div>
-        <div className="w-full mt-4 lg:mt-0 lg:w-1/2">
-          <Image 
-            src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg" 
-            alt="tailwind css components" 
-            width={600} 
-            height={400} 
-            className="w-full h-full max-w-md mx-auto" 
-          />
-        </div>
+
+
+        <div className="w-full mt-4 lg:mt-0 lg:w-1/2 rounded-3xl shadow-gray-700 shadow-2xl">
+  <Image 
+    src="/logo.png" 
+    alt="tailwind css components" 
+    width={400} 
+    height={300} 
+    className="w-3/4 sm:w-2/3 md:w-1/2 lg:w-1/2 h-auto mx-auto rounded-3xl" 
+  />
+</div>
+
+
       </section>
 
       <section className="py-12 bg-white dark:bg-gray-900">
