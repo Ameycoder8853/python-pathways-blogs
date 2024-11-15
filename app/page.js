@@ -43,16 +43,13 @@ export default function Home() {
           </div>
         </div>
 
-
-        <div className="mx-auto mt-4 w-3/4 sm:w-2/3 md:w-2/3 lg:w-1/2 shadow-gray-800 shadow-2xl rounded-3xl">
   <Image 
     src="/logo.png" 
     alt="tailwind css components" 
-    width={400} 
-    height={300} 
-    className=" sm:w-3/4 md:w-2/3 lg:w-1/2 h-auto m-auto rounded-3xl shadow-[0_8px_16px_rgba(0,0,0,0.5)]" 
+    width={300} 
+    height={400} 
+    className="sm:w-3/4 md:w-2/3 lg:w-1/4 h-auto m-auto mt-10 rounded-3xl shadow-gray-700 shadow-2xl "
   />
-</div>
 
 
 
