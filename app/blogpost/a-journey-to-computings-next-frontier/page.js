@@ -94,7 +94,7 @@ const Page = () => {
             <p className="leading-relaxed">
               Here’s the truth: we’re not just building faster computers. We’re creating a future where quantum and neural systems coexist, opening the doors to unimaginable possibilities. And the most exciting part? We’re just getting started.
             </p>
-            <Link href="pythonpathways.org"><button className="mt-6 px-6 py-3 bg-indigo-600 dark:bg-indigo-500 text-white font-bold rounded-full hover:bg-indigo-700 dark:hover:bg-indigo-600 transition duration-300">
+            <Link href="http://pythonpathways.org" target="_blank"><button className="mt-6 px-6 py-3 bg-indigo-600 dark:bg-indigo-500 text-white font-bold rounded-full hover:bg-indigo-700 dark:hover:bg-indigo-600 transition duration-300">
               Register Now</button></Link>
           </section>
         </article>
